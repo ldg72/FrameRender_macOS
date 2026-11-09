@@ -1,0 +1,6 @@
+{
+  "version": 6,
+  "configurePresets": [{"name":"macos","displayName":"macOS development","generator":"Ninja","binaryDir":"${sourceDir}/build","cacheVariables":{"CMAKE_BUILD_TYPE":"RelWithDebInfo","BUILD_TESTING":"ON"}}],
+  "buildPresets": [{"name":"macos","configurePreset":"macos"}],
+  "testPresets": [{"name":"macos","configurePreset":"macos","output":{"outputOnFailure":true}}]
+}
